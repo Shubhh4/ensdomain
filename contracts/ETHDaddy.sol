@@ -12,6 +12,7 @@ contract ETHDaddy is ERC721 {
         string name;
         uint256 cost;
         bool isOwned;
+        
     }
 
     mapping(uint256 => Domain) domains;
