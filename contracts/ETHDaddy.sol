@@ -20,7 +20,6 @@ contract ETHDaddy is ERC721 {
     modifier onlyOwner() {
         require(msg.sender == owner);
         _;
-        
     }
 
     constructor(string memory _name, string memory _symbol)
